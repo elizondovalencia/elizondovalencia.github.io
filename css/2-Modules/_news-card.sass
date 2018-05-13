@@ -1,0 +1,39 @@
+.news-card
+    display: flex
+    flex-direction: row
+    margin: 2rem 0 0 0
+    padding: 1rem
+    background-color: $white
+    img
+        width: 30vw
+        height: 40vh
+    .news-image_large
+        width: 50vw
+        height: 50vh
+    .news-card_info
+        position: absolute
+        align-self: flex-end
+        height: 15rem
+        width: 50rem
+        z-index: 99
+        padding: 1rem 1.8rem
+        box-shadow: $bs-1
+        background-color: $white
+        .meta-descript
+            margin-left: 1.8rem
+            margin-top: 3rem
+            display: block
+            color: $primary-color
+            font-size: 1.6rem
+        .news-title
+            display: block
+            font-size: 2.8rem
+            margin: 0
+            margin-left: 1.8rem
+    .news-card_infoLarge
+        align-content: flex-end
+
+.news-card:first-child
+    margin-left: 0
+    margin-right: 1rem
+    padding: 1rem 0 0 0

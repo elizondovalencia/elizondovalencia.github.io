@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Farmacias de Apoyo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<header class="header">
+    <div class="container header-grid">
+        <h1 style="font-size: 2.8rem; margin-left: 20%"><span style="color: #0561A9;">Farmacias de</span> <span style="color: #FFB142;">Apoyo</span></h1>
+        <!--<img class="logo-image" src="img/logo-a.png">-->
+        <a class="menu-icon" href="javascript:void(0);" onclick="myFunction()" id="toggler">
+            <svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="36px" height="36px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<rect x="4" y="5" fill="#0561A9" width="16" height="2"/>
+	<rect x="4" y="11" fill="#0561A9" width="16" height="2"/>
+	<rect x="4" y="17" fill="#0561A9" width="16" height="2"/>
+</g>
+</svg>
+
+        </a>
+        <nav id="myTopnav" class="hide-nav ">
+            <div class="nav container nav-grid">
+                <ul>
+                    <li><a href="#">Nuestra Empresa</a></li>
+                    <li><a href="#">Nuestros Servicios</a></li>
+                    <li><a href="#">Tienda Virtual</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</header>
+
+<div class="" id="overlayShow"></div>
+
+<a href="javascript:void(0)" onclick="openChat()" id="chat-button">
+    <div class="messaging">
+        <img src="img/chat-bubble.png">
+    </div>
+</a>
+
+
+<main class="container main-col">
+
+    <div class="side-pattern"></div>
+
+    <div class="hero row">
+        <div class="hero-container">
+            <img src="img/erik-cid-551273-unsplash.jpg">
+            <div class="hero-talk">
+                <h1>Mas que una farmacia.
+                    </h1>
+            </div>
+        </div>
+    </div>
+    <div class="side-pattern"></div>
+    <section class="stripe-menu row">
+        <div class="stripes">
+            <label>Navega Farmacias de Apoyo</label>
+            <ul>
+                <li><a href="#">Pacientes y Cuidadores<h6>→</h6></a></li>
+                <li><a href="#">Profesionistas<h6>→</h6></a></li>
+                <li><a href="#">Hospitales y Clinicas<h6>→</h6></a></li>
+                <li><a href="#">Laboratorios<h6>→</h6></a></li>
+            </ul>
+        </div>
+    </section>
+    <div class="side-pattern"></div>
+    <section class="news">
+        <label>Noticias de Apoyo</label>
+        <div class="news-container col-2">
+            <div class="news-card">
+                <div class="news-card_info" style="background-color: #fff;">
+                    <label class="meta-descript" id="card-stopper">Medicina</label>
+                    <h3 class="news-title">Como cuidar tu cuerpo<br> contra el arthritis</h3>
+                </div>
+                    <img src="/img/nino-liverani-418090-unsplash.jpg">
+            </div>
+            <a href="#">
+                <div class="news-card">
+                    <div class="news-card_info news-card_infoLarge" style="background-color: #fff;">
+                        <label class="meta-descript">Inversionistas</label>
+                        <h3 class="news-title">Inversion de 100M <br> de pesos en farmaclinica</h3>
+                    </div>
+                    <img src="/img/architectural-design-architecture-building-668298.jpg" class="news-image_large">
+                </div>
+            </a>
+        </div>
+    </section>
+    <div class="side-pattern"></div>
+    <section class="find-us">
+        <label>Ubica su farmacia</label>
+        <a href="#" class="find-more">Ver todas los subcursales &longrightarrow;</a>
+        <div class="g-map">
+<!--
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3784.459350827444!2d-97.3910539074029!3d18.462840958807817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bcd7403363af%3A0x3dc592658818d6ec!2sFarmacias+de+Apoyo+-+Sucursal+Matriz!5e0!3m2!1sen!2smx!4v1526139069933" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen name="mapframe" id="mapframe"></iframe>
+-->
+            <div id="map-canvas"></div>
+        </div>
+        <div class="locations">
+            <div class="map-card">
+                <!--<img src="img/farmacia_A.JPG">-->
+                <h4 class="map-card__local">Matriz</h4>
+                <p class="map-card__meta">Av. Independencia Oriente<br> No. 323 Col. San Nicolás Tetitzintla<br> CP: 75710</p>
+                <p class="map-card__phone">Tel. 238 38 0 28 28</p>
+                <button class="btn map-card__btn" id="1">Ubica este local &longrightarrow;</button>
+            </div>
+            <div class="map-card">
+                <!--<img src="img/farmacia_A.JPG">-->
+                <h4 class="map-card__local">Garci Crespo</h4>
+                <p class="map-card__meta">Av. José Garci-Crespo<br> No. 2003-C Col. Centro<br> CP: 75700</p>
+                <p class="map-card__phone">Tel. 238 38 3 13 40</p>
+                <button class="btn map-card__btn changeMap" id="2">Ubica este local &longrightarrow;</button>
+            </div>
+            <div class="map-card">
+                <!--<img src="img/farmacia_A.JPG">-->
+                <h4 class="map-card__local">5 Sur</h4>
+                <p class="map-card__meta">A5 Sur <br> No. 143-E Tehuacan<br> CP: 75700</p>
+                <p class="map-card__phone">Tel. 238 37 1 83 64</p>
+                <button class="btn map-card__btn" id="3">Ubica este local &longrightarrow;</button>
+            </div>
+            <div class="map-card">
+                <!--<img src="img/farmacia_A.JPG">-->
+                <h4 class="map-card__local">Megasucursal</h4>
+                <p class="map-card__meta">Independencia Pte<br> No. 614 Col. Centro<br> CP: 75770</p>
+                <p class="map-card__phone">Tel. 238 38 2 10 00</p>
+                <button class="btn map-card__btn" id="4">Ubica este local &longrightarrow;</button>
+            </div>
+        </div>
+    </section>
+    <div class="side-pattern"></div>
+    <section class="sign-up">
+        <div class="sign-up__box">
+            <img src="img/adult-business-buying-255488.jpg">
+            <div class="box__text">
+                <h3>Unete al Club de Apoyo a tu salud</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus explicabo neque numquam. Blanditiis deleniti eaque libero obcaecati quibusdam repellat suscipit?</p>
+                <a href="#" class="btn">Descubre como &longrightarrow;</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-left">
+        <h1 style="font-size: 2.8rem; margin-left: 10%"><span style="color: #0561A9;">Farmacias de</span> <span style="color: #FFB142;">Apoyo</span></h1>
+    </div>
+</footer>
+
+
+</body>
+
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
