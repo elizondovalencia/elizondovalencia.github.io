@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,ol,li,blockquote,label
     text-rendering: optimizeLegibility
     -webkit-font-smoothing: antialiased
     color: #232323
-    font-family: 'Neue Montreal', sans-serif
+    font-family: $normal-font
 
 h1
     font-size: 4.8rem
@@ -31,8 +31,16 @@ h5
 p
     font-size: 1.6rem
 
+a
+    text-decoration: none
+
 blockquote
-    padding-left: 5px
+    padding-top: 25px
+    padding-bottom: 25px
+    padding-left: 20px
+    border-left: solid 5px $primary-color
+    font-size: 3rem
+    font-family: $italic
 
 label
     font-size: 1.8rem

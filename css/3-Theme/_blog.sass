@@ -1,0 +1,119 @@
+.blog-init
+    display: grid
+    grid-template-columns: 1fr
+    background-color: $light-blue
+
+
+
+.blog-starter__text
+    font-size: 7rem
+    font-family: $bold-font
+    line-height: 1.7
+    color: $white
+    margin: 30px 30% 80px 15%
+
+.blog
+    margin-top: 60px
+    margin-left: 15%
+    margin-right: 15%
+    padding-bottom: 100px
+.corner-stone
+    width: 100%
+    img
+        width: 100%
+        height: 650px
+        object-fit: cover
+    article
+        height: 100px
+
+.cornerstone-what
+    background-color: $white
+    box-shadow: $bs-1
+    width: 30%
+    padding: 40px
+    transform: translateX(50px) translateY(-600px)
+
+.cornerstone-title
+    font-size: 3.6rem
+    font-family: $bold-font
+
+.excerpt
+    color: #858889
+    font-size: 1.8rem
+    line-height: 1.7
+
+.double-post
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: auto
+    grid-gap: 50px
+
+.secondary-post
+    padding-bottom: 50px
+    img
+        width: 100%
+        height: 300px
+        object-fit: cover
+
+    .underline
+        width: 80%!important
+
+.secondary-post__title
+    font-family: $bold-font
+    font-size: 3rem
+
+.secondary-post__subtitle
+    color: #858889
+    font-size: 1.8rem
+    line-height: 1.7
+
+.blog-btn
+    background-color: $white
+    color: $black
+    border-bottom: 1px solid $black
+    border-right: solid 1px $black
+    padding: 10px
+    margin-bottom: 25px
+    &:after
+        content: '\2192'
+        padding-left: 10px
+
+.newsletter
+    width: 100%
+    form
+        width: 500px !important
+    input[type="email"]
+        padding: 20px
+        width: 60%
+        font-size: 1.8rem
+        margin: 0
+        border: none
+        border-bottom: 1px solid $black
+        border-left: 1px solid $black
+
+    input[type="submit"]
+        border: none
+        width: 29%
+        padding: 20px
+        margin-left: 10px
+        background-color: $white
+        font-size: 1.8rem
+        border-bottom: 1px solid $black
+        border-right: 1px solid $black
+        cursor: pointer
+
+    input[type="submit"]:hover
+        background-color: $black
+        color: $white
+
+.newsletter__title
+    font-size: 6rem
+    text-transform: uppercase
+    margin-bottom: 0
+
+.newsletter__info
+    font-size: 1.8rem
+
+.newsletter__social
+    font-size: 1.4rem
+    padding: 20px
