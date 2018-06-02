@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2f4976-0c23-4545-8f28-2747d83ea776" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-post/arthritis-como.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/1-Base/_fonts.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/2-Modules/_blog-posts.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/3-Theme/_blog.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NeueMontreal-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NeueMontreal-Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NeueMontreal-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NeueMontreal-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/NeueMontreal-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog/melissa-mjoen-385845-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog/nino-liverani-418090-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog/rhema-kallianpur-471933-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog/toa-heftiba-422022-unsplash.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2a471bc8e13d6f602b1e8c441951a10f9ef43293/_header.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/2a471bc8e13d6f602b1e8c441951a10f9ef43293/_header.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2a471bc8e13d6f602b1e8c441951a10f9ef43293/import-modules.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/2a471bc8e13d6f602b1e8c441951a10f9ef43293/import-modules.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/_index.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/_index.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/_mediaQueries.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/_mediaQueries.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/import-theme.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/815b0fa8b82c61739caec535b021256fcae448ec/import-theme.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_main.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_main.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_universals.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_universals.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_vars.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/_vars.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/base-import.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/8b9c0e52fb74a9b860a812f696222c86a0b4e76b/base-import.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/1-Base/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/1-Base/_main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/1-Base/_universals.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/1-Base/_universals.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/1-Base/_vars.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/1-Base/_vars.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/1-Base/base-import.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/1-Base/base-import.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2-Modules/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/2-Modules/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/2-Modules/import-modules.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/2-Modules/import-modules.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/3-Theme/_index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/3-Theme/_index.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/3-Theme/_mediaQueries.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/3-Theme/_mediaQueries.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/3-Theme/import-theme.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/3-Theme/import-theme.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctors-dir.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctors-dir.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctors-profiles/lucero.html" beforeDir="false" afterPath="$PROJECT_DIR$/doctors-profiles/lucero.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,6 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="lucero.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doctors-profiles/lucero.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-508">
+              <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="doctors-dir.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="doctors-dir.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doctors-dir.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="221">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -137,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="176" selection-start-line="176" selection-end-line="180" selection-end-column="9" />
+            <state relative-caret-position="597">
+              <caret line="193" column="13" lean-forward="true" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -204,13 +181,13 @@
         <option value="$PROJECT_DIR$/css/1-Base/_main.sass" />
         <option value="$PROJECT_DIR$/css/3-Theme/_mediaQueries.sass" />
         <option value="$PROJECT_DIR$/css/3-Theme/_index.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/1-Base/_universals.sass" />
         <option value="$PROJECT_DIR$/css/3-Theme/_blog.sass" />
         <option value="$PROJECT_DIR$/css/2-Modules/_blog-posts.sass" />
         <option value="$PROJECT_DIR$/blog-post/arthritis-como.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/doctors-dir.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -220,9 +197,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="868" />
-    <option name="y" value="119" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="531" />
+    <option name="y" value="3" />
     <option name="width" value="974" />
     <option name="height" value="1019" />
   </component>
@@ -348,25 +325,25 @@
       <workItem from="1526690270926" duration="8445000" />
       <workItem from="1526857757300" duration="2482000" />
       <workItem from="1526950755906" duration="416000" />
-      <workItem from="1527825219977" duration="18317000" />
+      <workItem from="1527825219977" duration="18571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106163000" />
+    <option name="totallyTimeSpent" value="106417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="868" y="119" width="974" height="1019" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49047014" visible="true" weight="0.2681624" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49047014" visible="true" weight="0.13224447" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3329821" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3058455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.170706" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.17014614" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" sideWeight="0.5095299" side_tool="true" weight="0.2681624" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -626,16 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doctors-profiles/lucero.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/2-Modules/import-modules.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -718,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="176" selection-start-line="176" selection-end-line="180" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/3-Theme/_mediaQueries.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -786,12 +739,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doctors-dir.html">
+    <entry file="file://$PROJECT_DIR$/doctors-profiles/lucero.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="-508">
+          <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctors-dir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="193" column="13" lean-forward="true" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
