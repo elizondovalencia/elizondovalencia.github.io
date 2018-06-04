@@ -49,29 +49,22 @@
     </div>
 </header>
 
-<div class="" id="overlayShow"></div>
-
+<!--
 <a href="javascript:void(0)" onclick="openChat()" id="chat-button">
     <div class="messaging">
         <img src="img/chat-bubble.png">
     </div>
 </a>
+-->
 
 
-<main class="container main-col">
+<main class="hero-main">
 
-    <div class="side-pattern"></div>
+    <section class="hero-typer">
+       <h1 class="title hero-title">Farmacias de Apoyo es mas que una farmacia nosotros somos: <span class="title hero-title" id="typer"></span></h1>
+        <img src="img/architectural-design-architecture-building-668298.jpg" class="hero-img">
+    </section>
 
-    <div class="hero row">
-        <div class="hero-container">
-            <img src="img/erik-cid-551273-unsplash.jpg">
-            <div class="hero-talk">
-                <h1>Mas que una farmacia<br> Farmacias de Apoyo
-                    </h1>
-            </div>
-        </div>
-    </div>
-    <div class="side-pattern"></div>
     <section class="stripe-menu row">
         <div class="stripes">
             <label>Navega Farmacias de Apoyo</label>
@@ -83,39 +76,54 @@
             </ul>
         </div>
     </section>
-    <div class="side-pattern"></div>
-    <section class="news">
-        <label>Noticias de Apoyo</label>
-        <div class="news-container col-2">
-            <div class="news-card">
-                <div class="news-card_info" style="background-color: #fff;">
-                    <label class="meta-descript" id="card-stopper">Medicina</label>
-                    <h3 class="news-title">Como cuidar tu cuerpo<br> contra el arthritis</h3>
-                </div>
-                    <img src="/img/nino-liverani-418090-unsplash.jpg">
-            </div>
-            <a href="#">
-                <div class="news-card">
-                    <div class="news-card_info news-card_infoLarge" style="background-color: #fff;">
-                        <label class="meta-descript">Inversionistas</label>
-                        <h3 class="news-title">Inversion de 100M <br> de pesos en farmaclinica</h3>
-                    </div>
-                    <img src="/img/architectural-design-architecture-building-668298.jpg" class="news-image_large">
-                </div>
-            </a>
-        </div>
+
+    <section class="quick-about">
+      <div class="holder">
+          <p class="lead">Estamos ayudando a nuestra comunidad a crecer fuerte y saludable con nuestras jornadas médicas.</p>
+          <a href="#" class="linkage">Ver mas</a>
+      </div>
+        <img src="img/Index/jornada.png" class="quick-about__img">
     </section>
-    <div class="side-pattern"></div>
-    <section class="find-us">
-        <label>Ubica su farmacia</label>
-        <a href="#" class="find-more">Ver todas los subcursales &longrightarrow;</a>
-        <div class="g-map">
-<!--
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3784.459350827444!2d-97.3910539074029!3d18.462840958807817!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5bcd7403363af%3A0x3dc592658818d6ec!2sFarmacias+de+Apoyo+-+Sucursal+Matriz!5e0!3m2!1sen!2smx!4v1526139069933" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen name="mapframe" id="mapframe"></iframe>
--->
-            <div id="map-canvas"></div>
+
+    <section class="index-blog">
+        <h2 class="title">Noticias recientes</h2>
+
+        <div class="index-blog__holder">
+
+            <div class="secondary-post"><!-- POST -->
+                <img src="img/blog/toa-heftiba-422022-unsplash.jpg">
+                <div class="post-meta">
+                    <article>
+                        <h3 class="secondary-post__title">La importancia de buen comer</h3> <!-- POST TITLE -->
+                        <div class="underline"></div> <!-- IGNORE -->
+                        <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cupiditate itaque necessitatibus sapiente voluptas. Incidunt?</p>
+                        <a href="#" class="linkage">Leer mas</a>
+                    </article>
+                </div>
+            </div><!-- END POST -->
+
+            <div class="secondary-post"><!-- POST -->
+                <img src="img/blog/nino-liverani-418090-unsplash.jpg">
+                <div class="post-meta">
+                    <article>
+                        <h3 class="secondary-post__title">Como cuidarte contra el arthritis</h3> <!-- POST TITLE -->
+                        <div class="underline"></div> <!-- IGNORE -->
+                        <p class="excerpt">Tousled master cleanse activated charcoal church-key, cliche coloring book lo-fi photo booth fixie vegan pug plaid hammock lomo.</p>
+                        <a href="blog-post/arthritis-como.html" class="linkage">Leer mas</a>
+                    </article>
+                </div>
+            </div><!-- END POST -->
         </div>
-        <div class="locations">
+        <hr>
+    </section>
+
+    <section class="maps">
+        <div class="maps__holder">
+            <div class="g-map">
+                <div id="map-canvas"></div>
+            </div>
+        </div>
+        <div class="maps-cards__holder">
             <div class="map-card">
                 <!--<img src="img/farmacia_A.JPG">-->
                 <h4 class="map-card__local">Matriz</h4>
@@ -145,42 +153,40 @@
                 <button class="btn map-card__btn" id="4">Ubica este local &longrightarrow;</button>
             </div>
         </div>
+
     </section>
-    <div class="side-pattern"></div>
-    <section class="sign-up">
-        <div class="sign-up__box">
-            <img src="img/adult-business-buying-255488.jpg">
-            <div class="box__text">
-                <h3>Unete al Club de Apoyo a tu salud</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus explicabo neque numquam. Blanditiis deleniti eaque libero obcaecati quibusdam repellat suscipit?</p>
-                <button class="btn" id="modalBtn">Descubre como &longrightarrow;</button>
+    <section class="loyalty-program">
+        <div class="loyalty-sign-up">
+            <h2 class="title">Unete al club de Apoyo</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias asperiores consequatur, corporis cumque, cupiditate dolore facilis incidunt iusto laborum minima pariatur quae quam quos repellendus sit suscipit vel voluptate voluptates.</p>
+            <a class="linkage">Unete ya</a>
+        </div>
+        <img src="img/Index/Business-Card-Hand.png">
+    </section>
+    <div class="underline hero-underline"></div>
+    <section class="sign-up" style="margin-bottom: 5%;">
+        <div class="newsletter center">
+            <h2 class="newsletter__title text-center ">Noticiera</h2>
+            <p class="text-center newsletter__info">Un boletín informativo sobre salud, ciencia y noticias</p>
+            <form class="center">
+                <input type="email" placeholder="email">
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="line-vertical center"></div>
+            <div class="center">
+                <a href="https://www.facebook.com/farmaciasdeapoyo/" class="newsletter__social">Facebook</a>
+                <a href="https://twitter.com/FarmaciaDeApoyo" class="newsletter__social">Twitter</a>
+                <a href="https://www.instagram.com/farmaciasdeapoyo/" class="newsletter__social">Instagram</a>
             </div>
         </div>
     </section>
 </main>
-
-<div id="simpleModal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="closeBtn">&times;</span>
-            <h2>Modal Header</h2>
-        </div>
-        <div class="modal-body">
-            <h3>TODO - Add Form</h3>
-            <p>This form will have all the fields needed to fill out an application for a club card</p>
-        </div>
-        <div class="modal-footer">
-            <h3>Enviar Solicitud &xrarr;</h3>
-        </div>
-    </div>
-</div>
 
 <footer>
     <div class="footer-left">
         <h1 style="font-size: 2.8rem; margin-left: 10%"><span style="color: #0561A9;">Farmacias de</span> <span style="color: #FFB142;">Apoyo</span></h1>
     </div>
 </footer>
-
 
 
 
@@ -192,6 +198,7 @@
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCUyjr8kmXegTAfrWk89DlyC5wdBCyXvU&callback=initMap">
     </script>
+<script src="js/vendor/typeit.js"></script>
 <script src="js/main.js" async defer></script>
 
 </body>

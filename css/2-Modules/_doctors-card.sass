@@ -1,14 +1,16 @@
 .doctor-card
-    width: 100%
-    border-bottom: solid 5px $primary-color
-    padding-bottom: 50px
-    transition: ease-in-out .3s
-    img
-        width: 100%
-        border-bottom: solid 5px $primary-color
-    .card-list__item:before
-        margin-right: 10px
-        content: '\2192'
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 25px
 
+.doctor-card__about__title
+    margin-top: 0
+    margin-bottom: 10px
+    font-family: $bold-font
+    font-size: 2.6rem
 
+.doctor-card__about__para
+    color: $light-grey
+    font-size: 1.8rem
+    line-height: 1.7
 

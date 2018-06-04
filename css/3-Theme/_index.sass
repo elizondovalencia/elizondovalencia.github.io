@@ -1,40 +1,27 @@
-.side-pattern
-    height: 100%
-    background-image: url("../img/blue_carbon_open_pattern_tile_120.png")
-    background-repeat: repeat
+.hero-typer
+    display: grid
+    grid-template-columns: 1fr
+    margin: 3% 5%
 
-.hero
-    .hero-container
-        display: flex
-    img
-        box-sizing: border-box
-        width: 100%
-        height: 800px
-        object-fit: cover
+.hero-title
+    line-height: 1.7
+    margin-right: 20%
+    font-size: 5rem
 
-    .hero-talk
-        z-index: 99
-        position: absolute
-        align-self: flex-end
-        max-width: 50rem
-        margin-top: -5rem
-        padding: 3.75rem
-        background: $primary-color
-        h1
-            font-size: 3.6rem
-            color: $white
-            font-family: $bold-font
+.hero-img
+    height: 600px !important
+    object-fit: cover !important
 
 
 .stripe-menu
-    margin: 1rem 2rem 2rem 2rem
+    margin: 5% 5%
     padding-top: 2rem
-    border-top: 5px solid $black
-    border-bottom: 5px solid $black
+    border-top: 3px solid $black
+    border-bottom: 3px solid $black
 
     label
         font-size: 1.8rem
-        font-family: $bold-font
+        font-family: $normal-font
         font-weight: 700
     a
         text-decoration: none
@@ -47,13 +34,16 @@
             list-style: none
             font-size: 2.6rem
             font-weight: 700
-            margin: 5rem 0 5rem 0
+            margin: 30px 0 30px 0
             display: inline-block
+            a
+                font-family: $bold-font
         h6
             padding-left: 2rem
             display: inline-block
             font-size: 2.6rem
             transition: ease-in-out .2s
+            font-family: $bold-font
 
         li:hover a > h6
             color: #FFB142
@@ -61,54 +51,53 @@
             -webkit-animation: shake cubic-bezier(0.75, 0.02, 0.5, 1) 8s infinite
 
 
+.quick-about
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 50px
+    margin: 0 5%
+    .linkage
+        margin-top: 50px
+    .lead
+        margin-top: 0
 
-.news
-    margin: 1rem 2rem 2rem 2rem
-    overflow: hidden
-    .news-container
-        display: grid
-
-.find-us
-    margin: 0 2rem 8rem 2rem
-    border-top: 5px solid $black
-    padding-top: 2rem
-    .g-map
-        display: grid
-        grid-template-columns: 1fr
-        margin-top: 20px
-        margin-bottom: 0
-    .find-more
-        float: right
-        font-size: 1.6rem
-        text-decoration: none
-    .locations
-        display: grid
-        grid-template-columns: repeat(4, 1fr)
-        grid-column-gap: 20px
-
-.sign-up
-    margin: 0
-    margin-bottom: -100px
-    .sign-up__box
-        img
-            height: 500px
-            width: 100%
-            object-fit: cover
-        .box__text
-            width: 30%
-            background-color: rgba(35,35,35,.9)
-            color: #fff
-            padding: 20px
-            padding-left: 60px
-            padding-right: 60px
-            padding-bottom: 40px
-            transform: translateY(-300px)
-            h3
-                font-size: 2.4rem
-            p
-                margin-bottom: 30px
-            h3, p
-                color: #fff
+.quick-about__img
+    height: 300px !important
+    object-fit: cover
 
 
+.index-blog
+    display: grid
+    grid-template-columns: 1fr
+    grid-gap: 50px
+    margin: 5% 5%
+
+.index-blog__holder
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 50px
+
+
+.maps
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    margin: 5% 5%
+    grid-gap: 50px
+
+.maps-cards__holder
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: auto
+    grid-gap: 15px
+
+
+.loyalty-program
+    margin: 0 5%
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 50px
+
+.hero-underline
+    margin: 0 5%
+    background-color: #858889 !important
 
