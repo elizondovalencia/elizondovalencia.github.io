@@ -86,16 +86,16 @@
         </div>
 
         <div class="about-community">
-            <img src="img/about/ben-duchac-66002-unsplash.jpg">
+            <img src="img/about/ben-duchac-66002-unsplash.jpg" class="image-switcher">
             <div class="media-switcher">
                 <div class="media-switcher__holder media-switcher__holder--active">
-                    <a href="#trabajo">
+                    <a onclick="changeurl('img/about/sam-mcghee-281614-unsplash.jpg')">
                         <span class="media-switcher__title">Trabajo</span>
                         <span class="media-switcher__content">Shoreditch hell of seitan retro, jean shorts shaman cronut pickled XOXO locavore flexitarian tofu pok pok. Yr waistcoat lomo green juice cliche tote bag portland la croix church-key adaptogen sartorial maste</span>
                     </a>
                 </div>
                 <div class="media-switcher__holder">
-                    <a href="#community">
+                    <a onclick="changeurl('img/about/ben-duchac-66002-unsplash.jpg')">
                         <span class="media-switcher__title">Communidad</span>
                         <span class="media-switcher__content">Shoreditch hell of seitan retro, jean shorts shaman cronut pickled XOXO locavore flexitarian tofu pok pok. Yr waistcoat lomo green juice cliche tote bag portland la croix church-key adaptogen sartorial maste</span>
                     </a>
@@ -153,6 +153,12 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCUyjr8kmXegTAfrWk89DlyC5wdBCyXvU&callback=initMap">
 </script>
 <script src="js/main.js" async defer></script>
+
+<script>
+    function changeurl(theurl){
+        $('.image-switcher').attr('src', theurl);
+    }
+</script>
 </body>
 </html>
 
