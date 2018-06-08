@@ -18,7 +18,7 @@
     grid-gap: 20px
 
 .blog-title
-    margin-left: 50px
+    margin-top: 50px
     margin-bottom: 10px
     font-family: $bold-font
     color: $black
@@ -26,14 +26,15 @@
 .blog-title__subtitle
     font-size: 2rem
     font-family: $normal-font
-    margin-left: 50px
     line-height: 1.7
+    margin-bottom: 25px
 
 .meta-card
-    margin-right: 50px
-    margin-top: 36px
     border-bottom: solid 5px $black
     padding-bottom: 25px
+    margin-left: 50px
+    margin-top: 50px
+
     .meta-name
         margin-top: 0
     .meta-profile
@@ -59,7 +60,9 @@
             margin-bottom: 5px
 
 .blog-content
-    margin-right: 620px
+    display: grid
+    grid-template-columns: 1fr
+    margin-right: 50px
     p
         line-height: 1.8
         font-size: 2.1rem
@@ -73,7 +76,7 @@
         width: 90%
         max-height: 350px
         object-fit: cover
-        margin: 10px 50px 10px auto
+        margin: 10px auto 10px auto
         display: table
 
     .the-post__visual__quote
