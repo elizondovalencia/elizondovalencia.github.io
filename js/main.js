@@ -29,6 +29,26 @@ function myFunction() {
     }
 }
 
+function hideShowVid() {
+    const x = document.getElementById("has-vid");
+    if (x.className === "has-video ") {
+        x.className += "hide";
+    } else {
+        x.className = "";
+    }
+    const y = document.getElementById("real-vid");
+    if (y.className === "about-video "){
+        y.className = "show";
+    } else {
+        y.className = "about-video ";
+    }
+    const z = document.getElementById("video-img");
+    if (z.className === "video-placeholder") {
+        z.className = "hide";
+    } else {
+        z.className = "video-placeholder";
+    }
+}
 
 
 let map;
@@ -81,9 +101,6 @@ $(document).ready(function ()
     });
 
 });
-
-
-
 
 
 

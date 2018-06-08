@@ -53,9 +53,10 @@
     <section class="about-head">
         <h1 class="title about-title">Ayudando a las personas sanas</h1>
         <div class="video-container">
-            <a href="#" data-behavior="load_video" data-post="149" data-field="interview" class="has-video">
-                <img src="img/about/sam-mcghee-281614-unsplash.jpg" alt="Health" class="video-placeholder">
+            <a href="javascript:void(0);" onclick="hideShowVid()" id="has-vid" class="has-video">
+                <img src="img/about/about-header.png" alt="Health" class="video-placeholder" id="video-img">
             </a>
+            <div id="real-vid" class="about-video " style="padding:52.71% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/273591087?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
         </div>
     </section>
 
@@ -113,17 +114,17 @@
 
         <div class="people-grid">
             <div class="blurb"> <!-- BLURB -->
-                <img src="img/people/kyu-lee-387624-unsplash.jpg">
+                <img src="img/people/kyu-lee-387624-unsplash.png">
                 <h3 class="blurb-title">Francisco Díaz</h3>
                 <p class="blurb-text">CEO</p>
             </div><!-- END BLURB -->
             <div class="blurb"> <!-- BLURB -->
-                <img src="img/people/becca-matimba-280983-unsplash.jpg">
+                <img src="img/people/becca-matimba-280983-unsplash.png">
                 <h3 class="blurb-title">Coral</h3>
                 <p class="blurb-text">Directora de Comercializacion</p>
             </div><!-- END BLURB -->
             <div class="blurb"> <!-- BLURB -->
-                <img src="img/people/avel-chuklanov-18174-unsplash.jpg">
+                <img src="img/people/avel-chuklanov-18174-unsplash.png">
                 <h3 class="blurb-title">Geovanni Mejia</h3>
                 <p class="blurb-text">Cordinador de TICS</p>
             </div><!-- END BLURB -->
@@ -159,6 +160,7 @@
         $('.image-switcher').attr('src', theurl);
     }
 </script>
+<script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 </html>
 
