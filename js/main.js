@@ -65,19 +65,22 @@ function moreStories() {
 let counter = 0;
 function changeIndexImg() {
 
-    if (counter === 1){
-        document.getElementById("indexImgChange").src = "../img/Index/jornada.png";
+    if (counter === 0){
+        document.getElementById("indexImgChange").src = "img/architectural-design-architecture-building-668298.jpg";
     }
-    else if (counter === 2)
+    else if (counter === 1)
     {
-        document.getElementById("indexImgChange").src = "../img/Index/farmacia_A.png";
+        document.getElementById("indexImgChange").src = "img/farmacia_A.jpg";
     }
-    else if (counter === 3){
-        document.getElementById("indexImgChange").src = "../img/Index/adult-business-buying-255488.jpg";
+    else if (counter === 2){
+        document.getElementById("indexImgChange").src = "img/adult-business-buying-255488.jpg";
 
-    }else {
+    }else if (counter === 3) {
+        counter = 0;
+    } else {
         counter = 0;
     }
+
     counter += 1;
     console.log(counter);
 }
