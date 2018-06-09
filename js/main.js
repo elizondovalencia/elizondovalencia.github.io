@@ -62,6 +62,26 @@ function moreStories() {
 }
 
 
+let counter = 0;
+function changeIndexImg() {
+
+    if (counter === 1){
+        document.getElementById("indexImgChange").src = "../img/Index/jornada.png";
+    }
+    else if (counter === 2)
+    {
+        document.getElementById("indexImgChange").src = "../img/Index/farmacia_A.png";
+    }
+    else if (counter === 3){
+        document.getElementById("indexImgChange").src = "../img/Index/adult-business-buying-255488.jpg";
+
+    }else {
+        counter = 0;
+    }
+    counter += 1;
+    console.log(counter);
+}
+
 let map;
 function initialize()
 {
