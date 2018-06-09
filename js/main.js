@@ -12,6 +12,13 @@ new TypeIt('#doctors', {
     autoStart: false
 });
 
+new TypeIt('#pacientes', {
+    strings: ["Precios Accecibles", "Variedad en tratamiento", "Ayuda sin limites.", "Esperanza."],
+    speed: 75,
+    breakLines: false,
+    autoStart: false
+});
+
 console.log("\nDisenado y Creado por Elizondo & Valencia." + "\nDirector Creativo: Juan Carlos Martinez"+"\nVean mas trabajos en https://elizondovalecnia.com");
 
 function myFunction() {
@@ -48,6 +55,10 @@ function hideShowVid() {
     } else {
         z.className = "video-placeholder";
     }
+}
+
+function moreStories() {
+    document.getElementById("more-story").innerHTML = "Sin mas historia por el momento.";
 }
 
 
