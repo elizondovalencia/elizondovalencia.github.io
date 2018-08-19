@@ -2,6 +2,7 @@
     margin-left: 5%
     margin-top: 5%
     margin-right: 5%
+    position: relative
 
 .video-placeholder
     width: 100%
@@ -13,14 +14,16 @@
     display: block
     border-bottom: none
     z-index: -9
+    position: relative
 
 .has-video:before
     content: ''
     z-index: 10
     width: 90px
     height: 90px
-    top: 30%
-    transform: translate(720%, 270%)
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
     background: rgba(254,209,0,0.95)
     transition: all 100ms linear 0ms
     position: absolute
@@ -28,11 +31,12 @@
 .has-video:after
     z-index: 12
     content: ''
-    position: absolute
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxNSI+PHBhdGggZD0iTTAgMTQuODYzbDExLjM5OC03LjQzTDAgMCIvPjwvc3ZnPg==)
     background-size: contain
     background-repeat: no-repeat
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
     width: 20px
     height: 20px
-    top: 58%
-    left: 49.8%
+    position: absolute

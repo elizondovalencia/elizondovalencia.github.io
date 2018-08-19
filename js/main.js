@@ -70,7 +70,7 @@ function changeIndexImg() {
     }
     else if (counter === 1)
     {
-        document.getElementById("indexImgChange").src = "img/farmacia_A.jpg";
+        document.getElementById("indexImgChange").src = "img/farmacia_A.JPG";
     }
     else if (counter === 2){
         document.getElementById("indexImgChange").src = "img/adult-business-buying-255488.jpg";
